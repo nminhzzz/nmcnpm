@@ -1,0 +1,16 @@
+.wrapperListTippy {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+.wrapperItemTippy {
+    line-height: 24px;
+    width: 100%;
+}
+.wrapperItemTippy:hover {
+    background-color: #f5f5f5;
+}
+.tippy-content {
+    padding: 0 !important;
+    width: 100% !important;
+}

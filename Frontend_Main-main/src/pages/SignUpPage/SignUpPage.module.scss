@@ -1,0 +1,253 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49 71 117);
+}
+.wrapperList {
+    margin: 32px;
+    width: 1200px;
+}
+.wrapperForm {
+    background-color: #fff;
+}
+.formItem {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.wrapperItem1 {
+    background-color: #fff;
+    padding: 30px;
+}
+.lag {
+    color: rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+}
+.vietnam {
+    border-radius: 50%;
+}
+.registerName {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 36px !important;
+    margin-bottom: 8px;
+}
+.notiRegis {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.wrapperInfoName {
+    color: #4a5569;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.wrapperInfoInput {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px 12px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 32px;
+
+    width: 100%;
+    background-color: #f1f3f6;
+    background-image: none;
+    border-width: 1px;
+    height: 46px;
+    font-size: 24px;
+    border-style: solid;
+    border-color: #f1f3f6;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+.wrapperButton {
+    color: #fff;
+    background: #2d65c3;
+    width: 100%;
+    height: 46px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    border: none;
+    margin-bottom: 8px;
+}
+.wrapperButtonGoogle {
+    color: #000;
+    background: #fff;
+    width: 100%;
+    height: 46px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    border: 2px solid #f1f3f6;
+    margin-bottom: 8px;
+    align-items: center;
+    display: flex;
+}
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+wrapperItem1 {
+    flex: 1;
+}
+wrapperItem {
+    flex: 1;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .wrapperList {
+            flex-direction: column;
+            box-shadow: none;
+        }
+
+        .wrapperItem1 {
+            width: 100%;
+            //flex: none;
+        }
+
+        .wrapperItem {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .wrapperItem1 .formItem img {
+            width: 150px;
+            height: auto;
+        }
+
+        .wrapperItem1 h1 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .wrapperItem1 .notiRegis {
+            font-size: 14px;
+            text-align: center;
+            display: block;
+            margin: 10px 0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            /* Responsive Styles */
+            @media (max-width: 768px) {
+                .wrapperList {
+                    flex-direction: column;
+                    box-shadow: none;
+                }
+
+                .wrapperItem1 {
+                    width: 100%;
+                    //flex: none;
+                }
+
+                .wrapperItem {
+                    display: none;
+                    width: 0;
+                    height: 0;
+                }
+
+                .wrapperItem1 .formItem img {
+                    width: 150px;
+                    height: auto;
+                }
+
+                .wrapperItem1 h1 {
+                    font-size: 24px;
+                    text-align: center;
+                }
+
+                .wrapperItem1 .notiRegis {
+                    font-size: 14px;
+                    text-align: center;
+                    display: block;
+                    margin: 10px 0;
+                }
+
+                .wrapperInfo {
+                    margin-bottom: 15px;
+                }
+
+                .wrapperInfoInput {
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 16px;
+                    box-sizing: border-box;
+                }
+
+                .wrapperButton,
+                .wrapperButtonGoogle {
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 16px;
+                }
+
+                .wrapperItem1 h3 {
+                    font-size: 16px;
+                    text-align: center;
+                }
+
+                .wrapperItem1 h3 a {
+                    color: #2d65c3;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .wrapperInfoInput {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .wrapperButton,
+        .wrapperButtonGoogle {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .wrapperItem1 h3 {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .wrapperItem1 h3 a {
+            color: #2d65c3;
+            text-decoration: none;
+        }
+    }
+}
+.wrapperInputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.wrapperInfoInput {
+    flex: 1;
+    padding-right: 40px; /* Dành chỗ cho icon con mắt */
+}
+
+.togglePasswordBtn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

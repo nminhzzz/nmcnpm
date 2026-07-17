@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    width: 256px;
+}
+.menu {
+    width: 256px;
+    height: 100vh; // Chiều cao toàn màn hình
+    position: fixed; // Cố định vị trí
+    top: 0;
+    left: 0;
+    overflow-y: auto; // Cho phép cuộn nếu danh sách dài
+    background: white; // Đảm bảo nền hiển thị tốt
+    z-index: 1000; // Đảm bảo hiển thị trên cùng
+}
+.content {
+    margin-left: 256px; // Đẩy nội dung qua phải
+}
+
+.content {
+    width: calc(100% - 256px);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) and (orientation: landscape) {
+    .container {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+}

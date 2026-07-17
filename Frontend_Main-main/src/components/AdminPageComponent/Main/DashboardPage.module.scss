@@ -1,0 +1,128 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Tùy chọn màu nền */
+}
+
+.wrapperList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Khoảng cách giữa các cột */
+    width: 100%; /* Để chiếm toàn bộ chiều rộng */
+    max-width: 1200px; /* Giới hạn chiều rộng tối đa */
+}
+
+.wrapperItem {
+    padding: 20px;
+    background-color: #fff; /* Màu nền trắng cho mỗi ô */
+    text-align: center;
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
+    font-weight: bold;
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .wrapperList {
+        grid-template-columns: repeat(2, 1fr); /* Chuyển về 2 cột trên màn hình nhỏ */
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapperList {
+        grid-template-columns: 1fr; /* Chuyển về 1 cột trên màn hình rất nhỏ */
+    }
+}
+.progressIcon {
+    width: 66px;
+    height: 66px;
+    display: flex;
+    bottom: 75px;
+    left: 130px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-top: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: -42px;
+    right: 30px;
+}
+.sherah_pcolor {
+    color: #5a5a5a;
+    font-weight: 400;
+    line-height: 30px;
+}
+.sherah_progress_card__content {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.sherah_progress_card__heading {
+    margin-top: 30px;
+}
+.sherah_progress_card__button {
+    margin-top: 30px;
+}
+.wrapperList {
+    margin-top: 30px;
+}
+.sherah_progress_card__text_color {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+    align-items: center;
+}
+.sherah_see_all {
+    font-weight: 400;
+    color: #1a1a1a;
+    font-size: 14px;
+    width: 85px;
+    height: 30px;
+    line-height: 24x;
+    text-align: center;
+    display: inline-block;
+}
+.classColor1 {
+    color: #09ad95;
+}
+.classColor2 {
+    color: #ff6767;
+}
+
+.classColor3 {
+    color: #6176fe;
+}
+
+.classColor4 {
+    color: #f9c200;
+}
+
+.wrapperItem2 {
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn_list_group {
+    background: #f9c200 !important;
+    color: #1a1a1a;
+    border: none;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.wrapperList2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
